@@ -1,0 +1,483 @@
+:root {
+    --primary: #0a0a0a;
+    --blcak: #000;
+    --white: #fff;
+    --pofont-family: 'Kalam', cursive;
+    --jofont-family: 'Jost';
+    --font-family: 'Kalam', cursive;
+    --btn: #e5bf4a;
+    --head: #dfdfdf;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+}
+
+/*== header ==*/
+header {
+    background: var(--primary);
+    padding: 13px 88px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header a {
+    display: inline-block;
+    color: var(--white);
+    padding-right: 19px;
+    transition: all 1s !important;
+}
+
+header .icon i {
+    transition: all 1s;
+}
+
+header .icon a:hover i {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    color: var(--btn);
+}
+
+header .head-btn .bttn {
+    font-family: var(--jofont-family);
+    border: 1px solid #e5bf4a;
+}
+
+header .head-btn .bttn:hover {
+    background-color: var(--btn);
+    color: var(--white);
+}
+
+header .head-btn a {
+    color: var(--btn);
+}
+
+/*== header-2 ==*/
+.header-2 {
+    padding: 32px 22px;
+    background: var(--primary);
+    visibility: visible;
+    /* display: inline-block; */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-2 .head-2 ul a {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 32px 22px;
+    font-weight: 600;
+    color: var(--white);
+    transition: all 0.5s;
+    position: relative;
+}
+
+.header-2 .head-2 ul a:hover {
+    color: var(--btn); 
+}
+
+.header-2 .head-2 ul:hover .dropdown {
+    visibility: visible;
+    bottom: 67%;
+    opacity: 1;
+}
+
+.header-2 .head-2 ul .dropdown {
+    background-color: var(--white);
+    position: absolute;
+    bottom: 60%;
+    visibility: hidden;
+    right: 40%;
+    transition: all 0.5s;
+    transition: all .9s ease-out 0.01s;
+}
+
+.header-2 .head-2 ul .dropdown li {
+    font-size: 15px;
+    padding: 6px 50px 6px 10px;
+    transition: all 0.5s;
+}
+
+.header-2 .head-2 ul .dropdown li:hover {
+    color: var(--btn);
+    cursor: pointer;
+}
+
+.header-2 .head-2 ul li a::after {
+    content: " ";
+    position: absolute;
+    left: 5px;
+    width: 0;
+    bottom: 15px;
+    right: 0;
+    border-bottom: 1px solid #e5bf4a;
+    transition: all 0.5s;
+}
+
+.header-2 .head-2 ul li a:hover::after {
+    width: 90%;
+    right: 0;
+    border-bottom: 1px solid #e5bf4a;
+}
+
+/*== Banner ==*/
+.banner {
+    background-image: url(../Images/bannnerjpg.webp);
+    height: 81vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -70px;
+}
+
+.container {
+    padding: 0px 12px;
+    margin: 0px 290px;
+}
+
+.banner .banner-data h1 {
+    font-size: 70px;
+    font-family: 'Kalam', cursive;
+    color: var(--white);
+    margin-top: 270px;
+}
+
+.banner .banner-data a {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--blcak);
+    border: 1px solid #e5bf4a;
+    background-color: var(--btn);
+    transition: all 0.5s;
+}
+
+.banner .banner-data a:hover {
+    color: var(--btn);
+    background-color: transparent;
+    border: 1px solid #e5bf4a;
+}
+
+/*== This ==*/
+.this {
+    padding: 100px 100px;
+    background-color: var(--primary);
+}
+
+.this .thead h2 {
+    color: var(--head);
+    font-family: var(--pofont-family);
+    font-size: 40px;
+}
+
+.this .thead h2::after {
+    content: "";
+    position: absolute;
+    border-bottom: 2px solid #e5bf4a;
+    width: 15%;
+    bottom: -20%;
+    right: 41%;
+}
+
+.this .thi-data h2 {    
+    font-family: var(--pofont-family);
+    color: var(--btn);
+    /* padding-bottom: 10px; */
+}
+
+.this .thi-data p,
+span {
+    font-weight: 300;
+    color: var(--white);
+    /* width: 88%; */
+}
+
+.this .thi-img img {
+    height: 45vh;
+    object-fit: cover;
+}
+
+/*== Carousel ==*/
+.car {
+    background-color: var(--primary);
+    padding-top: 95px;
+    padding-bottom: 100px;
+    z-index: 999;
+}
+
+.car .car-img img {
+    height: 100vh;
+    width: 100%;
+}
+
+.car .item h3 a {
+    font-size: 24px;
+    font-family: var(--pofont-family);
+    color: var(--head);
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.car .item span {
+    font-size: 20px;
+    color: var(--btn);
+}
+
+/*== video ==*/
+.video {
+    background-color: var(--primary);
+}
+
+.video .video-img {
+    position: relative;
+}
+
+.video .video-icon a {
+    font-size: 28px;
+    position: absolute;
+    top: 43%;
+    left: 46%;
+    text-decoration: none;
+    background-color: var(--btn);
+    color: var(--primary);
+    padding: 50px;
+    opacity: 0.9;
+    border-radius: 50%;
+}
+
+/*== say ==*/
+.say {
+    background-color: var(--primary);
+    padding: 120px 0;
+}
+
+.say h2 {
+    font-family: var(--pofont-family);
+    color: var(--head);
+    font-size: 50px;
+}
+
+.say .say-card {
+    padding: 40px 46px 25px 46px;
+}
+
+.say .sayc-1 {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.say .row {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.say .say-data p{
+    font-size: 20px;
+}
+.say .say-card .say-star {
+    color: var(--btn);
+}
+
+.say .say-card .say-data p {
+    color: var(--white);
+    width: 90%;
+}
+
+.say .say-card .say-img p {
+    color: var(--head);
+}
+
+/*== Blog ==*/
+.blog {
+    background-color: var(--primary);
+    padding-bottom: 10px;
+}
+
+.blog .blog-head {
+    margin-bottom: 90px;
+    padding: 0px 100px;
+}
+
+.blog .blog-img img {
+    width: 82%;
+}
+
+.blog .blog-head h2 {
+    font-family: var(--pofont-family);
+    color: var(--head);
+    font-size: 40px;
+}
+
+.blog .blog-data {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 55px;
+}
+
+.blog .blog-data h3 {
+    font-family: var(--pofont-family);
+    color: var(--btn);
+}
+
+.blog .blog-data p {
+    font-family: var(--font-family);
+    color: var(--white);
+    width: 100%;
+    font-size: 20px;
+}
+
+.blog .blog-data a {
+    font-family: var(--jofont-family);
+    color: var(--btn);
+    font-size: 15px;
+    position: absolute;
+    border-bottom: 2px solid #e5bf4a;
+    padding-bottom: 10px;
+}
+
+.blog .blog-data {
+    position: relative;
+}
+
+.blog .blog-head .bttn {
+    font-weight: 400;
+    font-size: 15px;
+    background-color: var(--btn);
+    transition: all 0.5s;
+    border: 1px solid #e5bf4a;
+}
+
+.blog .blog-head .bttn:hover {
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid #e5bf4a;
+}
+
+.blog .bl-1 {
+    margin-bottom: 66px;
+    padding-left: 65%;
+}
+
+/*== Follow ==*/
+.follow {
+    background-color: var(--primary);
+    padding-top: 100px;
+
+}
+
+.follow h2 {
+    font-family: var(--pofont-family);
+    color: var(--white);
+    font-size: 60px;
+}
+
+.follow .follow-data a {
+    color: var(--btn);
+    border: 1px solid #e5bf4a;
+}
+
+/*== Footer ==*/
+footer {
+    background-color: var(--primary);
+    padding-top: 100px;
+}
+
+footer .footer-menu {
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 30px;
+    margin-bottom: 80px;
+}
+
+footer nav ul li a {
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: var(--white);
+    transition: all 0.5s;
+    position: relative;
+}
+
+footer nav ul li a:hover{
+    color: var(--btn);
+}
+
+footer nav ul li a::after{
+    content: " ";
+    position: absolute;
+    left: 20px;
+    width: 0;
+    bottom: -15px;
+    transition: all 0.5s;
+}
+
+footer nav ul li a:hover::after{
+    width: 60%;
+    right: 0;
+    border-bottom: 1px solid #e5bf4a;
+} 
+
+footer .footer-data p {
+    color: var(--white);
+    width: 90%;
+}
+
+footer .social .soc {
+    color: #fff !important;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    padding: 14px 36px 13px 39px;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-weight: 400;
+    margin-right: 4px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+}
+
+footer .social .soc:hover {
+    border: 1px solid #e5bf4a;
+    color: var(--btn) !important;
+}
+
+footer .foot-location i {
+    font-size: 30px;
+    color: var(--white);
+}
+
+footer .foot-location h4 {
+    color: var(--btn);
+    font-weight: 200;
+}
+
+footer .foot-location p {
+    color: var(--head);
+    width: 65%;
+}
+
+footer .row {
+    border-bottom: 1px solid #dfdfdf;
+}
+
+/*== f-bottom ==*/
+.f-bottom {
+    padding-top: 40px;
+    padding-bottom: 1px;
+    background-color: var(--primary);
+}
+
+.f-bottom .fb-p p {
+    color: var(--white);
+}
+
+.f-bottom .fb-p i {
+    color: var(--btn);
+}

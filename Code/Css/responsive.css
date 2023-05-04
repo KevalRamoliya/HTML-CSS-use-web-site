@@ -1,0 +1,615 @@
+    @media (max-width:1800px) {
+    .container {
+        max-width: 1400px;
+    }
+
+    .banner {
+        height: 90vh;
+    }
+
+    .this {
+        padding: 100px 100px;
+        margin: 0px;
+    }
+
+    .this .thi-img img {
+        width: 100%;
+    }
+
+    .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    .blog .blog-img img {
+        width: 90%;
+    }
+
+    .blog .bl-1 {
+        margin-bottom: 65px;
+        padding-left: 64%;
+    }
+}
+
+@media (max-width:1600px) {
+    .blog .bl-1 {
+        margin-bottom: 65px;
+        padding-left: 62%;
+    }
+
+    .blog .blog-img img {
+        width: 98%;
+    }
+}
+
+@media (max-width:1400px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    .this .thi-data p,
+    span {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .this .thi-img img {
+        width: 100%;
+        margin-right: 100px;
+    }
+
+    .video .video-icon a {
+        top: 43%;
+        left: 53%;
+    }
+
+    .blog .col-lg-6 {
+        width: 100%;
+    }
+
+    .blog .blog-data p {
+        width: 80%;
+        font-size: 30px;
+    }
+
+    .blog .blog-data h3 {
+        font-size: 35px
+    }
+
+    .blog .blog-data a {
+        font-size: 20px;
+    }
+
+    .blog .blog-data {
+        padding-bottom: 79px;
+    }
+
+    .blog .blog-head h2 {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .blog .blog-head .bttn {
+        margin: 50px 0px 0px -200px;
+        text-align: center;
+    }
+
+    .follow .col-lg-3 {
+        width: 50%;
+    }
+
+    .follow .follo-img img {
+        width: 90%;
+        margin-bottom: 50px;
+    }
+
+    .follow .follow-data a {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1200px) {
+    .container {
+        max-height: 992px;
+    }
+
+    header {
+        margin-right: -150px;
+    }
+
+    .header-2 {
+        margin-right: -150px;
+    }
+
+    .banner {
+        margin-right: -200px;
+    }
+
+
+    .this {
+        padding: 80px 0px;
+        margin-right: -200px;
+    }
+
+    .this .thead h2 {
+        font-size: 30px;
+    }
+
+    .this .thi-img img {
+        width: 100%;
+        margin-right: 100px;
+    }
+
+    .car {
+        padding: 50px 10px;
+        margin-right: -200px;
+    }
+
+    .video {
+        margin-right: -150px;
+        /* width: 100%; */
+    }
+
+    .video .video-icon a {
+        top: 43%;
+        left: 57%;
+    }
+
+    .say {
+        margin-right: -200px;
+        padding: 80px 0px;
+    }
+
+    .say .say-card {
+        padding: 10px 10px 10px 10px;
+    }
+
+    .blog {
+        margin-right: -200px;
+    }
+
+    .blog .blog-data p {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .blog .blog-data {
+        padding: 37px !important;
+    }
+
+    .blog .blog-data a {
+        margin-bottom: 10px;
+    }
+
+    .follow {
+        margin-right: -200px;
+    }
+
+    footer {
+        margin-right: -200px;
+    }
+
+    .f-bottom {
+        margin-right: -200px;
+    }
+}
+
+
+
+@media (max-width:992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .banner {
+        background-position: 50%;
+        width: 126%;
+        margin-right: 0px;
+        height: 150%;
+        background-size: cover;
+        margin-bottom: -100px;
+    }
+
+    header {
+        width: 126%;
+    }
+
+    .banner .banner-data h1 {
+        font-size: 40px;
+    }
+
+    .banner .banner-data a {
+        padding-bottom: 200px;
+    }
+
+    .header-2 {
+        width: 126%;
+    }
+
+    .this {
+        margin-top: 100px;
+        width: 126%;
+    }
+
+    .this .thead h2 {
+        font-size: 30px;
+    }
+
+    .this .thi-img img {
+        margin-top: 50px
+    }
+
+    .car {
+        width: 126%;
+        padding: 100px 0px;
+    }
+
+    .car .car-img img {
+        width: 100%;
+        /* height: 110vh; */
+    }
+
+    .video {
+        width: 126%;
+    }
+
+    .video .video-img img {
+        width: 92%;
+    }
+
+    .video .video-icon a {
+        top: 43%;
+        left: 45%;
+        padding: 30px;
+        font-size: 25px;
+    }
+
+    .say {
+        width: 126%;
+    }
+
+    .say .say-card {
+        margin-bottom: 30px;
+    }
+
+    .say .sayc-1 {
+        border: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .say .sayc-1 .say-img {
+        margin-bottom: 40px;
+    }
+
+    .blog .blog-img img {
+        width: 75%;
+    }
+
+    .blog .blog-data h3 {
+        font-size: 30px;
+    }
+
+    .blog .blog-data p {
+        font-size: 20px;
+    }
+
+    .blog .blog-data a {
+        font-size: 18px;
+    }
+
+    .blog .blog-data {
+        padding-bottom: 48px !important;
+    }
+
+    .blog,
+    .follow,
+    footer,
+    .f-bottom {
+        width: 126%;
+    }
+
+    .follow h2 {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .follow .follow-data a {
+        font-size: 20px;
+    }
+
+    footer .social .soc {
+        margin-bottom: 80px;
+    }
+
+    footer .foot-location {
+        margin-bottom: 80px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .container {
+        max-width: 576px;
+    }
+
+    .banner {
+        height: 70vh;
+        background-position: 20%;
+    }
+
+    .banner .banner-data h1 {
+        font-size: 50px;
+        margin-top: 200px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .banner .banner-data {
+        text-align: center;
+    }
+
+    .banner .banner-data a {
+        padding-bottom: 200px;
+    }
+
+    .icon {
+        width: 50%;
+    }
+
+    .he-img {
+        display: none;
+    }
+
+    .this .thead {
+        width: 100%;
+    }
+
+    .this .thead h2 {
+        font-size: 25px;
+    }
+
+    .this .thi-data h2 {
+        font-size: 20px;
+    }
+
+    .this .thi-img img {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .car {
+        padding: 20px 10px;
+    }
+
+    .car .item h3 a {
+        font-size: 18px;
+    }
+
+    .car .item span {
+        font-size: 15px;
+    }
+
+    .video .video-img img {
+        width: 95%;
+    }
+
+    .video .video-icon a {
+        top: 40%;
+        left: 45%;
+        padding: 25px;
+        font-size: 22px;
+    }
+
+    .say h2 {
+        font-size: 40px;
+    }
+
+    .blog .blog-img {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .blog .blog-data h3 {
+        font-size: 30px;
+    }
+
+    .blog .blog-data p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:576px) {
+    header {
+        padding: 24px 45px
+    }
+
+    .icon a {
+        padding-bottom: 10px;
+    }
+
+    .head-btn {
+        width: 100%;
+    }
+
+    .banner {
+        background-position: 10%;
+    }
+
+    .banner .banner-data h1 {
+        font-size: 40px;
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    .banner {
+        background-position: 30%;
+    }
+
+    .banner .banner-data h1 {
+        font-size: 35px;
+    }
+
+    .banner .banner-data a {
+        font-size: 12px;
+    }
+
+    .this {
+        padding: 50px 20px;
+    }
+
+    .this .thi-img img {
+        width: 100%;
+        height: 10%;
+    }
+
+    .this .thead h2 {
+        font-size: 20px
+    }
+
+    .this .thi-data h2 {
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .this .thi-data p,
+    span {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .video .video-img img {
+        width: 100%;
+    }
+
+    .video .video-icon a {
+        top: 40%;
+        left: 45%;
+        padding: 20px;
+        font-size: 18px;
+    }
+
+    .say h2 {
+        font-size: 35px;
+    }
+
+    .say .say-data p {
+        font-size: 16px;
+    }
+
+    .say .say-img img {
+        width: 45px;
+        height: 35px;
+    }
+
+
+    .blog .blog-data h3 {
+        font-size: 25px;
+    }
+
+    .blog .blog-data p {
+        font-size: 20px;
+    }
+
+    .blog .blog-data a {
+        font-size: 16px;
+    }
+
+    .follow {
+        padding-bottom: 90%;
+    }
+
+    .follow .col-lg-3 {
+        width: 100%;
+    }
+
+    .follow .follo-img {
+        text-align: center;
+    }
+
+    .follow .follo-img img {
+        width: 65%;
+    }
+
+    .follow h2 {
+        font-size: 38px;
+    }
+
+    .follow .follow-data a {
+        font-size: 15px;
+    }
+
+    footer {
+        text-align: center;
+        margin-right: -100px;
+        padding-top: 200px;
+    }
+
+    footer .footer-menu .foot-logo img {
+        display: none;
+        width: 10%;
+    }
+
+    .f-bottom .fb-p p {
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width:320px) {
+    .video .video-icon a {
+        top: 40%;
+        left: 45%;
+        padding: 15px;
+        font-size: 12px;
+    }
+
+    .say h2 {
+        font-size: 30px;
+    }
+
+    footer {
+        margin-right: -200px;
+        padding-bottom: 350px;
+    }
+
+    footer nav ul li a {
+        font-size: 20px;
+    }
+
+    footer .footer-data p {
+        font-size: 25px;
+    }
+
+    footer .social .soc {
+        font-size: 20px;
+    }
+
+    footer .foot-location i {
+        font-size: 40px;
+    }
+
+    footer .foot-location h4,
+    p {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .f-bottom .fb-p p {
+        font-size: 12px;
+    }
+
+    .header-2,
+    header,
+    .banner,
+    .this,
+    .car,
+    .video,
+    .say,
+    .blog,
+    .follow,
+    footer,
+    .f-bottom {
+        width: 140%;
+    }
+}
